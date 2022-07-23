@@ -9,6 +9,31 @@
 </head>
 <body>
     <canvas></canvas>
+    <div class="option">
+        <div class="line-width">
+            <input id="line-width" type="range" min="1" max="10" value="5" step="0.5">
+            <span id="line-width-value">5</span>
+        </div>
+        <input type="file" accept="image/*" id="file">
+        <input type="text" placeholder="Write and then double click" id="text">
+        <button id="save">Save image</button>
+        <div class="color">
+            <input class="color-input" type="color" id="color">
+            <div class="color-option" style="background-color: #1abc9c" data-color="#1abc9c"></div>
+            <div class="color-option" style="background-color: #3498db" data-color="#3498db"></div>
+            <div class="color-option" style="background-color: #34495e" data-color="#34495e"></div>
+            <div class="color-option" style="background-color: #8e44ad" data-color="#8e44ad"></div>
+            <div class="color-option" style="background-color: #f1c40f" data-color="#f1c40f"></div>
+            <div class="color-option" style="background-color: #e74c3c" data-color="#e74c3c"></div>
+            <div class="color-option" style="background-color: #d35400" data-color="#d35400"></div>
+            <div class="color-option" style="background-color: #bdc3c7" data-color="#bdc3c7"></div>
+            <div class="color-option" style="background-color: #2dcc71" data-color="#2dcc71"></div>
+            <button id="mode-btn" class="btn">Fill</button>
+            <button id="destroy-btn" class="btn">Destroy</button>
+            <button id="eraser-btn" class="btn">Erase</button>
+        </div>
+    </div>
+
 
     <script src="app.js"></script>
 </body>

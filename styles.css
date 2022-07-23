@@ -1,0 +1,53 @@
+canvas {
+    width: 800px;
+    height: 800px;
+    border: 5px solid black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.option {
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    width: 800px;
+    justify-content: center; 
+    align-items: center;
+}
+.line-width {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.color {
+    display: flex;
+    margin-top: 5px;
+}
+.color-input {
+    height: 50px;
+    margin-left: 5px;
+}
+.color-option {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+.color-select {
+    box-shadow: inset -3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    width: 80px;
+    height: 50px;
+    margin-left: 5px;
+}
+#file {
+    margin-left: 10px;
+}
